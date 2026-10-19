@@ -19,6 +19,10 @@ jobs:
 
   publish:
     needs: ci
+    # Waits for a manual approval: the `pub.dev` environment requires a reviewer.
+    # Approve it from the workflow run page (Review deployments).
     permissions:
       id-token: write # OIDC authentication with pub.dev
     uses: dart-lang/setup-dart/.github/workflows/publish.yml@6afc89df92d6eb3834022f73cd65adc8cdfcb92d # v1.8.1
+    with:
+      environment: pub.dev
