@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/Im-Fran/flutter_majesticons/security/advisories/new
+    about: Please report vulnerabilities privately, never as a public issue.
+  - name: 🎨 Request a new or different icon
+    url: https://github.com/halfmage/majesticons/issues
+    about: The icon artwork comes from Majesticons. Ask for new icons there.

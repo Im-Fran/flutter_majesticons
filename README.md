@@ -118,7 +118,11 @@ The tests cover the widget (theme inheritance, explicit overrides, semantics), c
 
 ## Contributing
 
-Issues and pull requests are welcome. Icon artwork comes from upstream, so changes to the icons themselves belong in [halfmage/majesticons](https://github.com/halfmage/majesticons). For changes to this package, edit `tool/generate.dart` or `lib/flutter_majesticons.dart`, regenerate, and make sure `flutter analyze` and `flutter test` pass.
+Issues and pull requests are welcome. Icon artwork comes from upstream, so changes to the icons themselves belong in [halfmage/majesticons](https://github.com/halfmage/majesticons). Setup, commands and the pull request flow are in [CONTRIBUTING.md](.github/CONTRIBUTING.md), and everyone taking part follows the [Code of Conduct](.github/CODE_OF_CONDUCT.md).
+
+## Security
+
+Please report vulnerabilities privately instead of opening a public issue. See [SECURITY.md](.github/SECURITY.md).
 
 ## License
 
