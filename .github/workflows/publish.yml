@@ -2,13 +2,13 @@ name: Publish to pub.dev
 
 # Releasing:
 #   1. Bump `version` in pubspec.yaml and add its entry to CHANGELOG.md (via PR).
-#   2. git tag v1.2.3 && git push origin v1.2.3
+#   2. git tag 1.2.3 && git push origin 1.2.3   (no `v` prefix)
 # The tag must match the version in pubspec.yaml and the tag pattern
-# `v{{version}}` configured at https://pub.dev/packages/flutter_majesticons/admin.
+# `{{version}}` configured at https://pub.dev/packages/flutter_majesticons/admin.
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
+      - '[0-9]+.[0-9]+.[0-9]+'
 
 permissions:
   contents: read
