@@ -1,0 +1,19 @@
+name: majesticons_example
+description: Gallery of every icon in flutter_majesticons, grouped by category.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_majesticons:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
